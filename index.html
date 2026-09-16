@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number System Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="converter-card">
+            <h1>Number System Converter</h1>
+
+            <div class="conversion-controls">
+                <div class="conversion-group">
+                    <label for="conversion">Convert from:</label>
+                    <select name="conversion" id="conversion">
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="decimal">Decimal</option>
+                        <option value="hexadecimal">Hexadecimal</option>
+                    </select>
+
+                </div>
+                <div class="target-group">
+
+                    <label for="target">Convert to:</label>
+
+                    <select name="target" id="target">
+                        <option value="binary">Binary</option>
+                        <option value="octal">Octal</option>
+                        <option value="decimal">Decimal</option>
+                        <option value="hexadecimal">Hexadecimal</option>
+                    </select>
+                </div>
+            </div>
+            <h2>Enter the number to convert:</h2>
+            <input
+                type="text"
+                id="numberInput"
+                placeholder="Enter number">
+            <!-- Button -->
+            <button id="convertButton">Convert</button>
+            <!-- Result -->
+             <div class="result-section">
+                <h3>RESULT</h3>
+
+                 <div class="result-box">
+                 <p id="result"></p>
+              <button id="copyButton">Copy</button>
+              </div>
+            </div>
+            <!-- Explanation -->
+            <div class="explanation-section">
+                <h4>How did we get this?</h4>
+                <p id="explanation"></p>
+            </div>
+        <div class="history-section">
+    <div class="history-header">
+        <h4>Conversion History</h4>
+        <button id="clearHistoryButton">Clear History</button>
+    </div>
+
+    <div id="historyList"></div>
+</div>
+        </div>
+    </main>
+    <script src="converter.js"></script>
+</body>
+</html>
