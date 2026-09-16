@@ -60,10 +60,7 @@ Each digit is multiplied by the corresponding power of its base, and the resulti
 For example:
 (1010)2
 
-= 1 × 2³
-+ 0 × 2²
-+ 1 × 2¹
-+ 0 × 2⁰
+= 1 × 2³+ 0 × 2²+ 1 × 2¹+ 0 × 2⁰
 
 = (10)10
 ### Cross-Base Conversion
@@ -86,3 +83,20 @@ number-system-converter/
 
 ![Number System Converter](screenshots/main-conversion.png)
 ![Number System Converter](screenshots/main-interface.png)
+
+
+## Future Improvements
+
+- Support for negative numbers
+- Support for fractional values
+- More detailed explanations for complex conversions
+- Improved conversion history management
+- Additional number-system learning tools
+
+  ## Author
+
+**Neha Gahalot**
+
+Computer Science Engineering Student
+
+GitHub: https://github.com/nehagahalot
